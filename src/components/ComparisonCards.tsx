@@ -15,9 +15,9 @@ const smf = ["Fast. Launch in weeks, not months", "$1000 ~ $25000 for MVP", "Qui
 export function ComparisonCards() {
   return (
     <div className="grid gap-y-6">
-      <Card className="border-destructive border-2 text-center" >
-        <CardHeader className="gap-0">
-          <CardTitle className="font-bold text-xl text-destructive">Traditional Approach</CardTitle>
+      <Card className="border-destructive border-2 text-center p-0 pb-6" >
+        <CardHeader className="py-4 gap-0 bg-destructive rounded-t-lg">
+          <CardTitle className="font-bold text-xl text-white">Traditional Approach</CardTitle>
         </CardHeader>
         <CardContent>
           <ul className="space-y-2">
@@ -30,9 +30,9 @@ export function ComparisonCards() {
           </ul>
         </CardContent>
       </Card>
-      <Card className="border-primary border-2 text-center" >
-        <CardHeader className="gap-0">
-          <CardTitle className="font-bold text-xl text-primary">Ship MVP Fast</CardTitle>
+      <Card className="border-primary border-2 text-center p-0 pb-6" >
+        <CardHeader className="py-4 gap-0 bg-primary rounded-t-lg">
+          <CardTitle className="font-bold text-xl text-primary-foreground">Ship MVP Fast</CardTitle>
         </CardHeader>
         <CardContent>
           <ul className="space-y-2">
