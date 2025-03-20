@@ -18,10 +18,10 @@ export function ReactWorks() {
     <div className="grid gap-y-8 md:grid-cols-2 md:gap-x-10">
       <Card className="p-0 pb-6 overflow-hidden">
         <div className="border-b">
-          <Image src={"/images/snapvote.png"} alt="SnapVote Screenshot" width={2728} height={2396} priority />
+          <Image src={"/images/test.png"} alt="SnapVote Screenshot" width={2591} height={1457} priority />
         </div>
         <CardHeader>
-          <CardTitle className="font-bold">
+          <CardTitle className="font-bold text-xl">
             SnapVote
           </CardTitle>
           <CardDescription>
@@ -38,10 +38,10 @@ export function ReactWorks() {
       </Card>
       <Card className="p-0 pb-6 overflow-hidden">
         <div className="border-b">
-          <Image src={"/images/snapvote.png"} alt="LiftySaaS Screenshot" width={2728} height={2396} priority />
+          <Image src={"/images/liftysaas.png"} alt="LiftySaaS Screenshot" width={2472} height={1391} priority />
         </div>
         <CardHeader>
-          <CardTitle className="font-bold">
+          <CardTitle className="font-bold text-xl">
             LiftySaaS
           </CardTitle>
           <CardDescription>

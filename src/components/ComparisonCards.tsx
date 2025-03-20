@@ -8,13 +8,13 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-const traditional = ["Months to launch", "$10,000+ for a basic MVP", "Slow response", "Hidden costs"]
-const smf = ["Fast. Launch in weeks, not months", "$1000 ~ $25000 for MVP", "Quick response", "Clear pricing"]
+const traditional = ["Months to launch", "$10,000+ for a basic MVP", "9-5 on a specific timezone", "Slow response", "Hidden costs"]
+const smf = ["Fast. Launch in weeks, not months", "$1000 ~ $25000 for MVP", "Flexible hours", "Quick response", "Clear pricing"]
 
 
 export function ComparisonCards() {
   return (
-    <div className="grid gap-y-6">
+    <div className="grid gap-y-6 md:grid-cols-2 gap-x-10">
       <Card className="border-destructive border-2 text-center p-0 pb-6" >
         <CardHeader className="py-4 gap-0 bg-destructive rounded-t-lg">
           <CardTitle className="font-bold text-xl text-white">Traditional Approach</CardTitle>
