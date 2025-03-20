@@ -2,6 +2,7 @@ import { Button } from '@/components/ui/button'
 import {
   ComparisonCards,
   HowWeWork,
+  Pricing,
   ReactWorks
 } from "@/components"
 
@@ -23,8 +24,12 @@ export default function Home() {
           <ComparisonCards />
         </section>
         <section>
-          <h2 className="font-bold text-2xl mb-4 text-center md:text-3xl md:mb-8">How we work</h2>
+          <h2 className="font-bold text-2xl mb-4 text-center md:text-3xl md:mb-8">How We Work</h2>
           <HowWeWork />
+        </section>
+        <section>
+          <h2 className="font-bold text-2xl mb-4 text-center md:text-3xl md:mb-8">Simple, Transparent Pricing</h2>
+          <Pricing />
         </section>
       </div>
     </div>

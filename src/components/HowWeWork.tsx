@@ -43,7 +43,7 @@ function Item({ step, label, description }: ItemProps) {
 
 export function HowWeWork() {
   return (
-    <ul className="grid gap-y-8 md:grid-cols-2 gap-10">
+    <ul className="grid gap-y-8 md:grid-cols-2 md:gap-10 lg:gap-12">
       {steps.map(({ label, description }, i: number) => (
         <Item key={i} step={++i} label={label} description={description} />
       ))}
