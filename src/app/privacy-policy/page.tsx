@@ -1,5 +1,11 @@
 import React from 'react'
 
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | Ship MVP Fast"
+}
+
 export default function PrivacyPolicy() {
   return (
     <div className="py-8">

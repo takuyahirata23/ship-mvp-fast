@@ -1,6 +1,12 @@
 import React from 'react'
 
-export default function PrivacyPolicy() {
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Terms of Service | Ship MVP Fast"
+}
+
+export default function TermsOfService() {
   return (
     <div className="py-8">
       <h1 className="font-bold text-2xl">Terms of Service</h1>
