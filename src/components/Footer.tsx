@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Twitter, Headset } from 'lucide-react'
 
 export function Footer() {
@@ -18,8 +19,16 @@ export function Footer() {
           <div>
             <div className="font-bold text-lg md:text-xl">Legal</div>
             <ul className="mt-6 space-y-3">
-              <li>Privacy Policy</li>
-              <li>Terms of Service</li>
+              <li>
+                <Link href="/privacy-policy">
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms-of-service">
+                  Terms of Service
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
