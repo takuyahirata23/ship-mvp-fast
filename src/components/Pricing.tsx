@@ -61,7 +61,7 @@ type ItemProps = {
 function Item({ label, description, price, list }: ItemProps) {
   const isFullStack = label === "Full-Stack Development"
   return (
-    <li className={isFullStack ? "scale-105" : ""}>
+    <li className={isFullStack ? "md:scale-105" : ""}>
       <Card className={isFullStack ? "border-primary border-2 h-full" : "h-full"}>
         <CardHeader>
           <CardTitle className="font-bold text-xl">{label}</CardTitle>

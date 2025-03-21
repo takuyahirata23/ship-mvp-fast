@@ -17,7 +17,7 @@ const items = [{
   name: "SnapVote",
   description: "Easy-to-use survey tool that lets you create and embed customizable surveys on your website",
   image: {
-    src: "/images/test.png",
+    src: "/images/snapvote.png",
     width: 2591,
     height: 1457
   },
