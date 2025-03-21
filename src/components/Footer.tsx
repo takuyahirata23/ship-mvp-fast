@@ -14,10 +14,10 @@ export function Footer() {
               </Link>
             </div>
             <div className="mt-6 flex gap-x-4">
-              <a href="https://x.com/tkhirata21" rel="noopener" target="_blank">
+              <a href="https://x.com/tkhirata21" rel="noopener" target="_blank" aria-label="View my twiiter account">
                 <Twitter />
               </a>
-              <a href="https://cal.com/takuya-hirata-plf82x/15min" target="_blank" rel="noopener">
+              <a href="https://cal.com/takuya-hirata-plf82x/15min" target="_blank" rel="noopener" aria-label="Book a call">
                 <Headset />
               </a>
             </div>
