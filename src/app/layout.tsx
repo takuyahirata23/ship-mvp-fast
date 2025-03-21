@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Ship MVP Fast",
   description: "Turn your idea into reality. Build and launch your MVP fast to validate it in the real world.",
+  robots: { index: true, follow: true }
 };
 
 export default function RootLayout({
