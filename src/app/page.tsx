@@ -36,7 +36,7 @@ export default function Home() {
           <h2 className="font-bold text-2xl mb-4 text-center md:text-3xl md:mb-8">Simple, Transparent Pricing</h2>
           <Pricing />
           <div className="flex flex-col items-center mt-10">
-            <h3 className="font-bold text-xl mb-4 md:text-2xl">Need to ship your MVP fast?</h3>
+            <h3 className="font-bold text-xl mb-4 md:text-2xl">Ready to build your MVP?</h3>
             <Button className="font-bold rounded-full" size="lg" asChild>
               <a href="https://cal.com/takuya-hirata-plf82x/15min" target="_blank" rel="noopener">
                 Book a call
