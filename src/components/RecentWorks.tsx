@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { ExternalLink } from 'lucide-react'
 
 import {
   Card,
@@ -50,9 +51,13 @@ function Item({ image, name, description, tags, url }: ItemProps) {
   return (
     <li>
       <a href={url} target="_blank" rel="noopener">
-        <Card className="p-0 pb-6 overflow-hidden">
-          <div className="border-b">
-            <Image src={image.src} alt={`${name} Screenshot`} width={image.width} height={image.height} priority />
+        <Card className="p-0 pb-6 overflow-hidden group hover:shadow-lg transition-all">
+          <div className="border-b relative overflow-hidden">
+            <Image src={image.src} alt={`${name} Screenshot`} width={image.width} height={image.height} priority className="group-hover:scale-[1.03] transition-all duration-300" />
+            <div className="transition-opacity opacity-0 group-hover:opacity-100 absolute inset-0 bg-gray-800/80 duration-300 flex items-center justify-center gap-x-2">
+              <ExternalLink className="text-primary-foreground" />
+              <span className="text-primary-foreground font-bold text-xl">Visit this project</span>
+            </div>
           </div>
           <CardHeader>
             <CardTitle className="font-bold text-xl">
