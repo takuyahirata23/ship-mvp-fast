@@ -17,7 +17,9 @@ export function Footer() {
               <a href="https://x.com/tkhirata21" rel="noopener" target="_blank">
                 <Twitter />
               </a>
-              <Headset />
+              <a href="https://cal.com/takuya-hirata-plf82x/15min" target="_blank" rel="noopener">
+                <Headset />
+              </a>
             </div>
           </div>
           <div>
