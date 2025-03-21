@@ -23,6 +23,23 @@ export const metadata: Metadata = {
     canonical: "https://www.shipmvpfast.com/"
   },
   keywords: ["mvp builder", "ship fast", "build mvp", "mvp for startups", "mvp product", "minimum viable product services"],
+  openGraph: {
+    type: "website",
+    siteName: "Ship MVP Fast",
+    locale: "en_US",
+    // images: {
+    //   alt: "Ship your MVP fast",
+    //   width: 1200,
+    //   height: 630,
+    // }
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ship MVP Fast",
+    description: "Build and launch your MVP fast to validate your idea in the real world.",
+    creator: "@tkhirata21"
+  }
+
 };
 
 export default function RootLayout({
