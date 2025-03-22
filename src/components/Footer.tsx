@@ -6,7 +6,7 @@ export function Footer() {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="max-w-5xl mx-auto px-4 py-8">
-        <div className="grid gap-y-6 md:grid-cols-2 gap-x-8">
+        <div className="grid gap-y-6 md:grid-cols-3 gap-x-8">
           <div className="flex items-center justify-between md:flex-col md:items-start md:justify-start">
             <div className="font-bold text-lg md:text-xl">
               <Link href="/">
@@ -37,8 +37,23 @@ export function Footer() {
               </li>
             </ul>
           </div>
+          <div>
+            <div className="font-bold text-lg md:text-xl">Recent Work</div>
+            <ul className="mt-6 space-y-3">
+              <li>
+                <a href="https://snapvote.live" target="_blank" rel="noopener" aria-label="Visit SnapVote">
+                  SnapVote
+                </a>
+              </li>
+              <li>
+                <a href="https://liftysaas.com" target="_blank" rel="noopener" aria-label="Visit LiftySaaS">
+                  LiftySaaS
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div className="mt-8 md:mt-12">
+        <div className="mt-8 md:mt-16">
           <p className="text-sm text-center">© 2025 Ship MVP Fast. All rights reserved.</p>
         </div>
       </div>
