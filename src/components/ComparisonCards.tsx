@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/card"
 
 const traditional = ["Months to launch", "$20,000+ for a basic MVP", "9-5 on a specific timezone", "Slow response", "Hidden costs"]
-const smf = ["Fast. Launch in weeks, not months", "$1000 ~ $25000 for MVP", "Flexible hours", "Quick response", "Clear pricing"]
+const smf = ["Fast. Launch in weeks, not months", "$799 ~ $1980 for MVP", "Flexible hours", "Quick response", "Clear pricing"]
 
 
 export function ComparisonCards() {
