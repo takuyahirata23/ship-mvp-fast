@@ -13,7 +13,7 @@ export function Footer() {
                 🚀 Ship MVP Fast
               </Link>
             </div>
-            <div className="mt-6 flex gap-x-4">
+            <div className="md:mt-6 flex gap-x-4">
               <a href="https://x.com/tkhirata21" rel="noopener" target="_blank" aria-label="View my twiiter account">
                 <Twitter />
               </a>
