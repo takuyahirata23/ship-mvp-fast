@@ -17,7 +17,7 @@ export function ComparisonCards() {
     <div className="grid gap-y-6 md:grid-cols-2 gap-x-10">
       <Card className="border-destructive border-2 text-center p-0 pb-6" >
         <CardHeader className="py-4 gap-0 bg-destructive rounded-t-lg">
-          <CardTitle className="font-bold text-xl text-white">Traditional Approach</CardTitle>
+          <CardTitle className="font-bold text-xl text-white line-through">Traditional Approach</CardTitle>
         </CardHeader>
         <CardContent>
           <ul className="space-y-2">
