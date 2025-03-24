@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from 'next/image'
+import Image, { type StaticImageData } from 'next/image'
 import { ExternalLink } from 'lucide-react'
 import snapvoteImg from '../../public/images/snapvote.png'
 import liftySaasImg from '../../public/images/liftysaas.png'
@@ -19,22 +19,14 @@ const liftySaaSTags = ["Full-Stack Development", "SaaS", "Marketing"]
 const items = [{
   name: "SnapVote",
   description: "Easy-to-use survey tool that lets you create and embed customizable surveys on your website",
-  image: {
-    src: snapvoteImg,
-    width: 2591,
-    height: 1457
-  },
+  image: snapvoteImg,
   url: "https://snapvote.live",
   tags: snapVoteTags
 },
 {
   name: "LiftySaaS",
   description: "Platform to launch and promote SaaS products to get visibility and boost SEO",
-  image: {
-    src: liftySaasImg,
-    width: 2472,
-    height: 1391
-  },
+  image: liftySaasImg,
   url: "https://liftysaas.com",
   tags: liftySaaSTags
 }
@@ -42,7 +34,7 @@ const items = [{
 
 
 type ItemProps = {
-  image: { src: string, width: number, height: number }
+  image: StaticImageData
   name: string
   description: string
   tags: string[]
@@ -55,7 +47,7 @@ function Item({ image, name, description, tags, url }: ItemProps) {
       <a href={url} target="_blank" rel="noopener">
         <Card className="p-0 pb-6 overflow-hidden group hover:shadow-lg transition-all">
           <div className="border-b relative overflow-hidden">
-            <Image src={image.src} alt={`${name} Screenshot`} sizes="100vw" priority className="group-hover:scale-[1.03] transition-all duration-300 w-full h-full" />
+            <Image src={image} alt={`${name} Screenshot`} sizes="100vw" priority className="group-hover:scale-[1.03] transition-all duration-300 w-full h-full" />
             <div className="transition-opacity opacity-0 group-hover:opacity-100 absolute inset-0 bg-gray-800/80 duration-300 flex items-center justify-center gap-x-2">
               <ExternalLink className="text-primary-foreground" />
               <span className="text-primary-foreground font-bold text-xl">Visit this project</span>
