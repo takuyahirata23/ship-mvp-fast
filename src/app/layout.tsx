@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://www.shipmvpfast.com/"
   },
-  keywords: ["mvp builder", "ship fast", "build mvp", "mvp for startups", "mvp product", "minimum viable product services"],
+  keywords: ["mvp builder", "ship fast", "build mvp", "mvp for startups", "mvp product", "minimum viable product services", "development website"],
   openGraph: {
     type: "website",
     siteName: "Ship MVP Fast",
