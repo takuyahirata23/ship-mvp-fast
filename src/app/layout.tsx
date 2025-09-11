@@ -63,7 +63,6 @@ export default function RootLayout({
         <Analytics />
       </body>
       <script src="https://micro-lens.gigalixirapp.com/events.js"
-        data-endpoint="https://micro-lens.gigalixirapp.com/api/collect"
         data-site="1" defer />
     </html>
   );
