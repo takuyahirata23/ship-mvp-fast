@@ -1,8 +1,7 @@
-import React from 'react'
 import Image, { type StaticImageData } from 'next/image'
 import { ExternalLink } from 'lucide-react'
 import snapvoteImg from '../../public/images/snapvote.png'
-import liftySaasImg from '../../public/images/liftysaas.png'
+import microlensImg from '../../public/images/og.png'
 
 import {
   Card,
@@ -24,10 +23,10 @@ const items = [{
   tags: snapVoteTags
 },
 {
-  name: "LiftySaaS",
-  description: "Platform to launch and promote SaaS products to get visibility and boost SEO",
-  image: liftySaasImg,
-  url: "https://liftysaas.com",
+  name: "Microlens",
+  description: "Fast and privacy-focused web analytics tool that helps you understand your audience without compromising their data",
+  image: microlensImg,
+  url: "https://microlens.app",
   tags: liftySaaSTags
 }
 ]
@@ -45,9 +44,9 @@ function Item({ image, name, description, tags, url }: ItemProps) {
   return (
     <li>
       <a href={url} target="_blank" rel="noopener">
-        <Card className="p-0 pb-6 overflow-hidden group hover:shadow-lg transition-all">
+        <Card className="p-0 pb-6 overflow-hidden group hover:shadow-lg transition-all h-full">
           <div className="border-b relative overflow-hidden">
-            <Image src={image} alt={`${name} Screenshot`} sizes="100vw" priority className="group-hover:scale-[1.03] transition-all duration-300 w-full h-full" />
+            <Image src={image} alt={`${name} Screenshot`} sizes="100vw" priority className="group-hover:scale-[1.03] transition-all duration-300 w-full h-full aspect-video" />
             <div className="transition-opacity opacity-0 group-hover:opacity-100 absolute inset-0 bg-gray-800/80 duration-300 flex items-center justify-center gap-x-2">
               <ExternalLink className="text-primary-foreground" />
               <span className="text-primary-foreground font-bold text-xl">Visit this project</span>
