@@ -61,8 +61,8 @@ export default function RootLayout({
           <Footer />
         </div>
         <Analytics />
+        <script src="https://microlens.app/events.js" data-site="4" defer />
       </body>
-      <script src="https://microlens.app/events.js" data-site="4" defer />
     </html>
   );
 }
